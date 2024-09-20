@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Dangrek", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.heanding{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(105, 104, 104, 0.256), rgba(0, 0, 0, 0.404)), url("../img/foodbackground.png"); 
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.box-menu{
+    width: 100%;
+    height: 65px;
+    overflow: hidden;
+    background-color:rgba(255, 217, 0, 0.781) ;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+}
+.menubar{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+.menu-left{
+    width: 20%;
+    overflow: hidden;
+    float: left;
+}
+.menu-left img{
+    width: 50%;
+    overflow: hidden;
+    height: 60px;
+    margin-top: 8px;
+    
+}
+.menu-right{
+    width: 75%;
+    overflow: hidden;
+    position: absolute;
+    left: 70%;
+}
+.menu-right ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-right ul li{
+    float: left;
+}
+.menu-right ul li a{
+    text-decoration: none;
+   display:block;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    float: right;
+}
+.menu-right ul li a:hover{
+    color: white;
+    background-color: brown;
+}
+.text-box{ 
+    position: absolute;
+    display: flex;
+    top: 450px;
+    left: 50px;
+    border: solid white 5px;
+} 
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+  
+}
+.box{
+    width: 80%;
+    height: 500px;
+    margin: auto ;
+}
+.box-left{
+    width: 50%;
+    height: 500px;
+    float: left;
+    overflow: hidden;
+}
+.box-left img{
+    width: 100%;
+    height: 70%;
+    transition: all 0.5s linear;
+
+}
+.box-left img:hover{
+    transform: scale(1.05);
+}
+.box-right{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.box-top{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+.box-top h2{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.box-top p{
+    font-size: 17px;
+    margin-top: 15px;
+}
+.box-bottom{
+  margin-left: 120px;
+}
+.box-bottom img{
+    width: 70%;
+    height: 100%;
+    transition: all 0.5s linear;
+}
+.box-bottom img:hover{
+    transform: scale(1.05);
+}
+.map{ 
+    width: 100%; 
+    height: 400px; 
+    margin-top: 80px; 
+} 
+.map iframe{ 
+    width: 70%;
+    height: 300px; 
+    margin-left: 15%; 
+} 
+.map h5{ 
+   margin-left: 15%; 
+   font-size: 25px; 
+} 
+.map p{ 
+    margin-left: 15%; 
+} 
+.end{ 
+    width: 100%; 
+    height: 75px; 
+    background-color: orange; 
+    margin-top: 150px; 
+} 
+.end-left{ 
+    width: 35%; 
+    height: 75px; 
+    float: left; 
+} 
+.end-left h4{ 
+    float: left; 
+    padding: 20px; 
+} 
+.end-left img{ 
+    width: 30%; 
+    height: 80px; 
+    float: left; 
+    padding: 15px; 
+} 
+.end-right{ 
+    float: left; 
+} 
+.end-right h4{ 
+    padding: 20px; 
+    margin-left: 350px; 
+}
